@@ -65,6 +65,9 @@ function Employee(name, email, hireDate) {
     this.year = year
     this.move = 0
 
+    this.moveCar = function () {
+      return this.move +=10
+    }
   }
   
   ////////// PROBLEM 4 //////////
@@ -84,7 +87,7 @@ function Employee(name, email, hireDate) {
     this.rating = rating;
   }
   
-  // Code here
+  
   
   ////////// PROBLEM 5 //////////
   
